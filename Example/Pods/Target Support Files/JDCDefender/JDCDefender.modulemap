@@ -1,0 +1,6 @@
+framework module JDCDefender {
+  umbrella header "JDCDefender-umbrella.h"
+
+  export *
+  module * { export * }
+}
