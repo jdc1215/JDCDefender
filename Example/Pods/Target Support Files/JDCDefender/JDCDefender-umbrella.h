@@ -10,10 +10,12 @@
 #endif
 #endif
 
+#import "NSObject+JDCModel.h"
 #import "NSObject+KVCDefender.h"
 #import "NSObject+KVODefender.h"
 #import "NSObject+MethodSwizzling.h"
 #import "NSObject+SelectorDefender.h"
+#import "UIViewController+Swizzling.h"
 
 FOUNDATION_EXPORT double JDCDefenderVersionNumber;
 FOUNDATION_EXPORT const unsigned char JDCDefenderVersionString[];

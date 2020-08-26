@@ -1,15 +1,14 @@
 //
 //  NSObject+KVODefender.m
-//  YSC-Avoid-Crash
+//  ConfigurationDemo
 //
-//  Created by WalkingBoy on 2019/8/19.
-//  Copyright © 2019 bujige. All rights reserved.
+//  Created by 江德春 on 2020/8/26.
+//  Copyright © 2020 江德春. All rights reserved.
 //
 
 #import "NSObject+KVODefender.h"
 #import "NSObject+MethodSwizzling.h"
 #import <objc/runtime.h>
-
 
 #pragma mark - YSCKVOProxy 相关
 
@@ -22,7 +21,7 @@
 @implementation YSCKVOProxy
 {
     // 关系数据表结构：{keypath : [observer1, observer2 , ...](NSHashTable)}
-    @private
+@private
     NSMutableDictionary<NSString *, NSHashTable<NSObject *> *> *_kvoInfoMap;
 }
 
@@ -50,7 +49,7 @@
         if (info.count == 0) {
             info = [[NSHashTable alloc] initWithOptions:(NSPointerFunctionsWeakMemory) capacity:0];
             [info addObject:observer];
-
+            
             _kvoInfoMap[keyPath] = info;
             
             return YES;
@@ -101,21 +100,21 @@
             ([keyPath isKindOfClass:[NSString class]] && keyPath.length <= 0)) {
             return NO;
         }
-    
+        
         NSHashTable<NSObject *> *info = _kvoInfoMap[keyPath];
-    
+        
         if (info.count == 0) {
             return NO;
         }
-    
+        
         [info removeObject:observer];
-    
+        
         if (info.count == 0) {
             [_kvoInfoMap removeObjectForKey:keyPath];
             
             return YES;
         }
-    
+        
         return NO;
     }
 }
@@ -125,7 +124,7 @@
                       ofObject:(id)object
                         change:(NSDictionary<NSKeyValueChangeKey,id> *)change
                        context:(void *)context {
-
+    
     NSHashTable<NSObject *> *info = _kvoInfoMap[keyPath];
     
     for (NSObject *observer in info) {
@@ -146,9 +145,7 @@
 
 @end
 
-
 #pragma mark - NSObject+KVODefender 分类
-
 @implementation NSObject (KVODefender)
 
 + (void)load {
@@ -156,24 +153,16 @@
     dispatch_once(&onceToken, ^{
         
         // 拦截 `addObserver:forKeyPath:options:context:` 方法，替换自定义实现
-        [NSObject yscDefenderSwizzlingInstanceMethod: @selector(addObserver:forKeyPath:options:context:)
-                                          withMethod: @selector(ysc_addObserver:forKeyPath:options:context:)
-                                           withClass: [NSObject class]];
+        [NSObject yscDefenderSwizzlingInstanceMethod:@selector(addObserver:forKeyPath:options:context:) withMehtod:@selector(ysc_addObserver:forKeyPath:options:context:) withClass:[NSObject class]];
         
         // 拦截 `removeObserver:forKeyPath:` 方法，替换自定义实现
-        [NSObject yscDefenderSwizzlingInstanceMethod: @selector(removeObserver:forKeyPath:)
-                                          withMethod: @selector(ysc_removeObserver:forKeyPath:)
-                                           withClass: [NSObject class]];
+        [NSObject yscDefenderSwizzlingInstanceMethod:@selector(removeObserver:forKeyPath:) withMehtod:@selector(ysc_removeObserver:forKeyPath:) withClass:[NSObject class]];
         
         // 拦截 `removeObserver:forKeyPath:context:` 方法，替换自定义实现
-        [NSObject yscDefenderSwizzlingInstanceMethod: @selector(removeObserver:forKeyPath:context:)
-                                          withMethod: @selector(ysc_removeObserver:forKeyPath:context:)
-                                           withClass: [NSObject class]];
+        [NSObject yscDefenderSwizzlingInstanceMethod:@selector(removeObserver:forKeyPath:context:) withMehtod:@selector(ysc_removeObserver:forKeyPath:context:) withClass:[NSObject class]];
         
         // 拦截 `dealloc` 方法，替换自定义实现
-        [NSObject yscDefenderSwizzlingInstanceMethod: NSSelectorFromString(@"dealloc")
-                                          withMethod: @selector(ysc_kvodealloc)
-                                           withClass: [NSObject class]];
+        [NSObject yscDefenderSwizzlingInstanceMethod:NSSelectorFromString(@"dealloc") withMehtod:@selector(ysc_kvodealloc) withClass:[NSObject class]];
     });
 }
 
@@ -282,5 +271,4 @@ static void *KVODefenderKey = &KVODefenderKey;
     
     [self ysc_kvodealloc];
 }
-
 @end

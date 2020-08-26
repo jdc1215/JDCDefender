@@ -1,9 +1,9 @@
 //
 //  NSObject+MethodSwizzling.h
-//  YSC-Avoid-Crash
+//  ConfigurationDemo
 //
-//  Created by WalkingBoy on 2019/8/19.
-//  Copyright © 2019 bujige. All rights reserved.
+//  Created by 江德春 on 2020/8/25.
+//  Copyright © 2020 江德春. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -11,21 +11,19 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NSObject (MethodSwizzling)
-
-/** 交换两个类方法的实现
- * @param originalSelector  原始方法的 SEL
- * @param swizzledSelector  交换方法的 SEL
- * @param targetClass  类
+/*交换两个类方法的实现
+ @param originalSelector 原始方法的SEL
+ @param swizzledSelector 交换方法的SEL
+ @param targetClass 类
  */
-+ (void)yscDefenderSwizzlingClassMethod:(SEL)originalSelector withMethod:(SEL)swizzledSelector withClass:(Class)targetClass;
++(void)yscDefenderSwizzlingClassMethod:(SEL)originalSelector withMethod:(SEL)swizzledSelector withClass:(Class)targetClass;
 
-/** 交换两个对象方法的实现
- * @param originalSelector  原始方法的 SEL
- * @param swizzledSelector 交换方法的 SEL
- * @param targetClass  类
- */
-+ (void)yscDefenderSwizzlingInstanceMethod:(SEL)originalSelector withMethod:(SEL)swizzledSelector withClass:(Class)targetClass;
-
+/*交换两个对象方法的实现
+@param originalSelector 原始方法的SEL
+@param swizzledSelector 交换方法的SEL
+@param targetClass 类
+*/
++(void)yscDefenderSwizzlingInstanceMethod:(SEL)originalSelector withMehtod:(SEL)swizzledSelector withClass:(Class)targeClass;
 @end
 
 // 判断是否是系统类

@@ -1,9 +1,9 @@
 //
 //  NSObject+SelectorDefender.h
-//  YSC-Avoid-Crash
+//  ConfigurationDemo
 //
-//  Created by WalkingBoy on 2019/8/19.
-//  Copyright © 2019 bujige. All rights reserved.
+//  Created by 江德春 on 2020/8/26.
+//  Copyright © 2020 江德春. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

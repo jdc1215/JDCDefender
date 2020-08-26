@@ -10,40 +10,44 @@
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		03D8B11C38B2FF4B2B3BC089EB39CD00 /* Pods-JDCDefender_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 737EB0E8D132687BE969BBA7353AE2FA /* Pods-JDCDefender_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
+		1269508227A0508D3E039B4E05E2F124 /* NSObject+KVODefender.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE6C35636B6B8A8F1AC977254D563C5 /* NSObject+KVODefender.m */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
-		195E684473CE1096E9444C7C27B120E9 /* NSObject+KVCDefender.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D7E20B2E21CC9D4C87A96B83EDAA59F /* NSObject+KVCDefender.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1810142A04466C139E33ED973D65DCD3 /* JDCDefender-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1589C6E460959ABF70422E4EBAE4EA /* JDCDefender-dummy.m */; };
 		1C0698CA0F640E6448E354B2F7909CC3 /* Pods-JDCDefender_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E3C3EC782FED5D5A7CEA91B8E80944 /* Pods-JDCDefender_Tests-dummy.m */; };
-		21872921CBFDA348D6043C7A320CE3BE /* NSObject+KVODefender.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C3D1168607442336548D54C2D3F2ED /* NSObject+KVODefender.m */; };
-		2C3BB28815220E6C1368D6BF9D61BC01 /* NSObject+SelectorDefender.h in Headers */ = {isa = PBXBuildFile; fileRef = A70DB02B26644BF6C86368CCC380AE54 /* NSObject+SelectorDefender.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C7E5E1D533AC86A881802F2DFFF3E33 /* NSObject+MethodSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 923EA9613492795D3B5CDE2271FC79B4 /* NSObject+MethodSwizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		242DE7DF376FC92151E06A5160AE4451 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
+		345CD604A9EE0D4C8A3EC87C1551DC6A /* JDCDefender-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46F7AF525751DB01C279A949083FBE51 /* JDCDefender-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		60A4F678F61E4D2C09DF3CA037E84FE3 /* JDCDefender-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3056DB4FE39BDFB392F09E4B5FD5F5FB /* JDCDefender-dummy.m */; };
+		510CF999B42BB1BE545D13F108F63C54 /* NSObject+SelectorDefender.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D952AB10D191AC1A7F794F86CA6D18 /* NSObject+SelectorDefender.m */; };
+		55C6F63E09F20147D5EAFA2E2EDF87F3 /* UIViewController+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB3DFAF6BCDD34BFC9E7C5DE7314036 /* UIViewController+Swizzling.m */; };
+		568FE3B8201F82807F3C0A31D9D346F1 /* NSObject+SelectorDefender.h in Headers */ = {isa = PBXBuildFile; fileRef = B040F2BAEFA2006210B8E4194DC54DD0 /* NSObject+SelectorDefender.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6110BF01D7DCE70234611FE9F1C85417 /* Pods-JDCDefender_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15979A945F4BA48B7993DEF2E3DB55B3 /* Pods-JDCDefender_Example-dummy.m */; };
-		62698DBE03F63F2DB57DE4200B768FEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
-		7BE1AF2B8FADCCD638D32389F6910361 /* JDCDefender-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD5D1433C25C7376AF82759CD55F063F /* JDCDefender-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8282084890A1CF287ABD3FF2D9608CE7 /* NSObject+KVODefender.h in Headers */ = {isa = PBXBuildFile; fileRef = C8D8EF7DCA67277B58DFD7F2FDBA4F1E /* NSObject+KVODefender.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C2F4BDDBF9F035211AE7AA2D0C010FA /* NSObject+JDCModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 48C00C7AD8EE4042D606DE2BE4498FF5 /* NSObject+JDCModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		828263E5A8A9D3EF786D5D7BFBA0EC74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		85FAFBE0F94E6F250693A500C3EBCA06 /* Pods-JDCDefender_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3CC282DE9D18B41BDE3DBA13550B552 /* Pods-JDCDefender_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9158AE68813DB4081EF2B961B80900A5 /* NSObject+MethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CB13033B6D0266437B7305DC0DDCBF /* NSObject+MethodSwizzling.m */; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
 		9F7E517C276B197947DB9F57D2DB08C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
-		ABE1C8F2BC71CD3FA2A1750533CCD0AB /* NSObject+MethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 23282A04D8E215CBF9AEC1C50B53FF1F /* NSObject+MethodSwizzling.m */; };
 		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		B530E341182CF82D3C6A582F7F84E022 /* NSObject+SelectorDefender.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4CE6701E1A22DA17F39F6AE967C883 /* NSObject+SelectorDefender.m */; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C1DC6B799BDD90F9D1D2D4A83D89CAED /* NSObject+KVODefender.h in Headers */ = {isa = PBXBuildFile; fileRef = BEAB536F32180BC54D382EE289E6EDEF /* NSObject+KVODefender.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9FBFC32064A9BC6D5A064D2465BC395 /* NSObject+KVCDefender.m in Sources */ = {isa = PBXBuildFile; fileRef = D5925E8ACDB531CB7EEB7F1CC9DAB39B /* NSObject+KVCDefender.m */; };
+		CA6FE5E4B59A4E6A83843AB4FF0050FC /* UIViewController+Swizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E9556A43D0CEFB897A220EB159C217A /* UIViewController+Swizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DDD21157C9405FEE3BAC7535EDB1A167 /* NSObject+KVCDefender.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CDCB4F846C3BEA22E10BAE1121BC3B5 /* NSObject+KVCDefender.m */; };
+		DECEAF5C03FBCDFEE725600C5EE041F5 /* NSObject+JDCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 535DB663413EF4EAD23713BCB9BB89FC /* NSObject+JDCModel.m */; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
+		EED1DAD1E8DAA341DC6FABAC82D256B2 /* NSObject+MethodSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 370D5CDD976DD1E4541059E5BE81EE27 /* NSObject+MethodSwizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F2A63E2FF13D5857DAAD1F8E362CD006 /* NSObject+KVCDefender.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3B094578A798D678E9C85C9C4AC947 /* NSObject+KVCDefender.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -72,37 +76,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		041C4A458A6CF24B7FBCB1B253448E84 /* JDCDefender.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JDCDefender.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		04E3C3EC782FED5D5A7CEA91B8E80944 /* Pods-JDCDefender_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JDCDefender_Tests-dummy.m"; sourceTree = "<group>"; };
 		0AA70BADC98BA7227DB4DEC58B523C16 /* Pods-JDCDefender_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JDCDefender_Tests.modulemap"; sourceTree = "<group>"; };
-		0F0BFDA10A741050739E0D24BE03664B /* JDCDefender-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JDCDefender-Info.plist"; sourceTree = "<group>"; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		0FC47B4021F001AA2EC1E13291801EBC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		15979A945F4BA48B7993DEF2E3DB55B3 /* Pods-JDCDefender_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JDCDefender_Example-dummy.m"; sourceTree = "<group>"; };
-		162333B4774B3DDDDE2382680B09A6E8 /* JDCDefender-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JDCDefender-prefix.pch"; sourceTree = "<group>"; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		1F430CB6EAB9F364676C94A5F9D9F6FA /* Pods_JDCDefender_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JDCDefender_Tests.framework; path = "Pods-JDCDefender_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		23282A04D8E215CBF9AEC1C50B53FF1F /* NSObject+MethodSwizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MethodSwizzling.m"; path = "JDCDefender/Classes/NSObject+MethodSwizzling.m"; sourceTree = "<group>"; };
+		1FB3DFAF6BCDD34BFC9E7C5DE7314036 /* UIViewController+Swizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Swizzling.m"; path = "JDCDefender/Classes/UIViewController+Swizzling.m"; sourceTree = "<group>"; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		3056DB4FE39BDFB392F09E4B5FD5F5FB /* JDCDefender-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JDCDefender-dummy.m"; sourceTree = "<group>"; };
-		38AE4894808821772771D46E621F5FB3 /* JDCDefender.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JDCDefender.modulemap; sourceTree = "<group>"; };
+		31D952AB10D191AC1A7F794F86CA6D18 /* NSObject+SelectorDefender.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SelectorDefender.m"; path = "JDCDefender/Classes/NSObject+SelectorDefender.m"; sourceTree = "<group>"; };
+		370D5CDD976DD1E4541059E5BE81EE27 /* NSObject+MethodSwizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MethodSwizzling.h"; path = "JDCDefender/Classes/NSObject+MethodSwizzling.h"; sourceTree = "<group>"; };
 		3914BD66E0C13B89D057CA868E95DF07 /* Pods-JDCDefender_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JDCDefender_Example.modulemap"; sourceTree = "<group>"; };
+		3A1589C6E460959ABF70422E4EBAE4EA /* JDCDefender-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JDCDefender-dummy.m"; sourceTree = "<group>"; };
 		3B63620992C1EB2F53EF53BA87665384 /* Pods-JDCDefender_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JDCDefender_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		45B794C7C536A53121633B1914EFB9D2 /* Pods-JDCDefender_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JDCDefender_Tests-Info.plist"; sourceTree = "<group>"; };
+		46F7AF525751DB01C279A949083FBE51 /* JDCDefender-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JDCDefender-umbrella.h"; sourceTree = "<group>"; };
+		48C00C7AD8EE4042D606DE2BE4498FF5 /* NSObject+JDCModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+JDCModel.h"; path = "JDCDefender/Classes/NSObject+JDCModel.h"; sourceTree = "<group>"; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
-		52C3D1168607442336548D54C2D3F2ED /* NSObject+KVODefender.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+KVODefender.m"; path = "JDCDefender/Classes/NSObject+KVODefender.m"; sourceTree = "<group>"; };
+		535DB663413EF4EAD23713BCB9BB89FC /* NSObject+JDCModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+JDCModel.m"; path = "JDCDefender/Classes/NSObject+JDCModel.m"; sourceTree = "<group>"; };
 		5492778AB27002C794C74A3305D2840D /* Pods-JDCDefender_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDCDefender_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5B121DFE96BB27FF224E10FC1AEC9AAC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D7E20B2E21CC9D4C87A96B83EDAA59F /* NSObject+KVCDefender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+KVCDefender.h"; path = "JDCDefender/Classes/NSObject+KVCDefender.h"; sourceTree = "<group>"; };
+		5CDCB4F846C3BEA22E10BAE1121BC3B5 /* NSObject+KVCDefender.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+KVCDefender.m"; path = "JDCDefender/Classes/NSObject+KVCDefender.m"; sourceTree = "<group>"; };
+		5D02AEC0E47CB132D290D7D86F27A722 /* JDCDefender-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JDCDefender-Info.plist"; sourceTree = "<group>"; };
 		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5E9556A43D0CEFB897A220EB159C217A /* UIViewController+Swizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Swizzling.h"; path = "JDCDefender/Classes/UIViewController+Swizzling.h"; sourceTree = "<group>"; };
 		605C635C57C8C388E0FF6650D98F79BC /* Pods-JDCDefender_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JDCDefender_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		69136A7BE576D759E7F350BE86F7B59F /* JDCDefender.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JDCDefender.debug.xcconfig; sourceTree = "<group>"; };
 		6A009557EA3201B7480E1C9AA7B796EB /* Pods_JDCDefender_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JDCDefender_Example.framework; path = "Pods-JDCDefender_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		6C2CA428B6A37125BF6E6D62C2EEBBB4 /* Pods-JDCDefender_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JDCDefender_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -114,29 +117,34 @@
 		89B995BC79993A3652958BDA9CBC916B /* JDCDefender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JDCDefender.framework; path = JDCDefender.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		8EE6C35636B6B8A8F1AC977254D563C5 /* NSObject+KVODefender.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+KVODefender.m"; path = "JDCDefender/Classes/NSObject+KVODefender.m"; sourceTree = "<group>"; };
 		90596DD318411F80DC2887A1E0B09AC9 /* Pods-JDCDefender_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDCDefender_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		923EA9613492795D3B5CDE2271FC79B4 /* NSObject+MethodSwizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MethodSwizzling.h"; path = "JDCDefender/Classes/NSObject+MethodSwizzling.h"; sourceTree = "<group>"; };
+		914079B336F0A0351D7FD6EEB9F11125 /* JDCDefender.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JDCDefender.release.xcconfig; sourceTree = "<group>"; };
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		9503CA104987C3BCC316F70F71C16E4D /* Pods-JDCDefender_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDCDefender_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A005E8EC304ECEF547FEE3C690F925C9 /* JDCDefender-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JDCDefender-prefix.pch"; sourceTree = "<group>"; };
 		A3CC282DE9D18B41BDE3DBA13550B552 /* Pods-JDCDefender_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JDCDefender_Tests-umbrella.h"; sourceTree = "<group>"; };
-		A70DB02B26644BF6C86368CCC380AE54 /* NSObject+SelectorDefender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+SelectorDefender.h"; path = "JDCDefender/Classes/NSObject+SelectorDefender.h"; sourceTree = "<group>"; };
+		A5C176A31C76869CCD6CAAFB8FBA881E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		A8812AC31C6628AD5E1AD09CB7445EC5 /* Pods-JDCDefender_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JDCDefender_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		B040F2BAEFA2006210B8E4194DC54DD0 /* NSObject+SelectorDefender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+SelectorDefender.h"; path = "JDCDefender/Classes/NSObject+SelectorDefender.h"; sourceTree = "<group>"; };
+		B21B5758056B0411E126160190243D29 /* JDCDefender.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JDCDefender.modulemap; sourceTree = "<group>"; };
+		B49FAF6AB48EFCEF08EB062A54331518 /* JDCDefender.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JDCDefender.debug.xcconfig; sourceTree = "<group>"; };
 		B5CDC35C0FADF32388A83A8E5BB1264E /* Pods-JDCDefender_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDCDefender_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		C8D8EF7DCA67277B58DFD7F2FDBA4F1E /* NSObject+KVODefender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+KVODefender.h"; path = "JDCDefender/Classes/NSObject+KVODefender.h"; sourceTree = "<group>"; };
+		BEAB536F32180BC54D382EE289E6EDEF /* NSObject+KVODefender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+KVODefender.h"; path = "JDCDefender/Classes/NSObject+KVODefender.h"; sourceTree = "<group>"; };
+		C50FE0D4CF01618B36F4E9E92C608386 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		CC3B094578A798D678E9C85C9C4AC947 /* NSObject+KVCDefender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+KVCDefender.h"; path = "JDCDefender/Classes/NSObject+KVCDefender.h"; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		D5925E8ACDB531CB7EEB7F1CC9DAB39B /* NSObject+KVCDefender.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+KVCDefender.m"; path = "JDCDefender/Classes/NSObject+KVCDefender.m"; sourceTree = "<group>"; };
+		D737D713975675E88063E1D864AD5D9B /* JDCDefender.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JDCDefender.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		DA241E36F82C1B1D63408F6D458CF659 /* Pods-JDCDefender_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JDCDefender_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DBE329190110D23E8C3C65DAA02C4C90 /* JDCDefender.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JDCDefender.release.xcconfig; sourceTree = "<group>"; };
-		EE4CE6701E1A22DA17F39F6AE967C883 /* NSObject+SelectorDefender.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SelectorDefender.m"; path = "JDCDefender/Classes/NSObject+SelectorDefender.m"; sourceTree = "<group>"; };
+		F3CB13033B6D0266437B7305DC0DDCBF /* NSObject+MethodSwizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MethodSwizzling.m"; path = "JDCDefender/Classes/NSObject+MethodSwizzling.m"; sourceTree = "<group>"; };
 		F4F3CB8F37886462F0AD0DC899B83FF8 /* Pods-JDCDefender_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JDCDefender_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FD5D1433C25C7376AF82759CD55F063F /* JDCDefender-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JDCDefender-umbrella.h"; sourceTree = "<group>"; };
 		FEA104CA95FD95F312492265D5BF5D3E /* Pods-JDCDefender_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JDCDefender_Example-Info.plist"; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -150,11 +158,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		559276F3DA06AE875A34E125F1572B27 /* Frameworks */ = {
+		8B2D16F557E462FCE0B48F86A54C47E3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62698DBE03F63F2DB57DE4200B768FEC /* Foundation.framework in Frameworks */,
+				242DE7DF376FC92151E06A5160AE4451 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,14 +188,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02183B518E8BC2A469C0D1436E0E218F /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1908B4BE90FA0EA7CE80C7D5B150E825 /* JDCDefender */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		06471941CB27F334043221B5E3C15211 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,22 +199,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1908B4BE90FA0EA7CE80C7D5B150E825 /* JDCDefender */ = {
+		2680EE97C9CE631FD9BFBE686FD91E6A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5D7E20B2E21CC9D4C87A96B83EDAA59F /* NSObject+KVCDefender.h */,
-				D5925E8ACDB531CB7EEB7F1CC9DAB39B /* NSObject+KVCDefender.m */,
-				C8D8EF7DCA67277B58DFD7F2FDBA4F1E /* NSObject+KVODefender.h */,
-				52C3D1168607442336548D54C2D3F2ED /* NSObject+KVODefender.m */,
-				923EA9613492795D3B5CDE2271FC79B4 /* NSObject+MethodSwizzling.h */,
-				23282A04D8E215CBF9AEC1C50B53FF1F /* NSObject+MethodSwizzling.m */,
-				A70DB02B26644BF6C86368CCC380AE54 /* NSObject+SelectorDefender.h */,
-				EE4CE6701E1A22DA17F39F6AE967C883 /* NSObject+SelectorDefender.m */,
-				71E117B39F4782E13F9C818C2FA4F83E /* Pod */,
-				BCC676A555FA672C0C355E0A3B87BF80 /* Support Files */,
+				B21B5758056B0411E126160190243D29 /* JDCDefender.modulemap */,
+				3A1589C6E460959ABF70422E4EBAE4EA /* JDCDefender-dummy.m */,
+				5D02AEC0E47CB132D290D7D86F27A722 /* JDCDefender-Info.plist */,
+				A005E8EC304ECEF547FEE3C690F925C9 /* JDCDefender-prefix.pch */,
+				46F7AF525751DB01C279A949083FBE51 /* JDCDefender-umbrella.h */,
+				B49FAF6AB48EFCEF08EB062A54331518 /* JDCDefender.debug.xcconfig */,
+				914079B336F0A0351D7FD6EEB9F11125 /* JDCDefender.release.xcconfig */,
 			);
-			name = JDCDefender;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JDCDefender";
 			sourceTree = "<group>";
 		};
 		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
@@ -238,14 +235,26 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		71E117B39F4782E13F9C818C2FA4F83E /* Pod */ = {
+		5AA94991C06F547121CA0805E2C66713 /* JDCDefender */ = {
 			isa = PBXGroup;
 			children = (
-				041C4A458A6CF24B7FBCB1B253448E84 /* JDCDefender.podspec */,
-				0FC47B4021F001AA2EC1E13291801EBC /* LICENSE */,
-				5B121DFE96BB27FF224E10FC1AEC9AAC /* README.md */,
+				48C00C7AD8EE4042D606DE2BE4498FF5 /* NSObject+JDCModel.h */,
+				535DB663413EF4EAD23713BCB9BB89FC /* NSObject+JDCModel.m */,
+				CC3B094578A798D678E9C85C9C4AC947 /* NSObject+KVCDefender.h */,
+				5CDCB4F846C3BEA22E10BAE1121BC3B5 /* NSObject+KVCDefender.m */,
+				BEAB536F32180BC54D382EE289E6EDEF /* NSObject+KVODefender.h */,
+				8EE6C35636B6B8A8F1AC977254D563C5 /* NSObject+KVODefender.m */,
+				370D5CDD976DD1E4541059E5BE81EE27 /* NSObject+MethodSwizzling.h */,
+				F3CB13033B6D0266437B7305DC0DDCBF /* NSObject+MethodSwizzling.m */,
+				B040F2BAEFA2006210B8E4194DC54DD0 /* NSObject+SelectorDefender.h */,
+				31D952AB10D191AC1A7F794F86CA6D18 /* NSObject+SelectorDefender.m */,
+				5E9556A43D0CEFB897A220EB159C217A /* UIViewController+Swizzling.h */,
+				1FB3DFAF6BCDD34BFC9E7C5DE7314036 /* UIViewController+Swizzling.m */,
+				DB285ACCD46676A314EA4E436414E7E3 /* Pod */,
+				2680EE97C9CE631FD9BFBE686FD91E6A /* Support Files */,
 			);
-			name = Pod;
+			name = JDCDefender;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		74D39DCE6F45E0A6C9E66809E059466A /* Targets Support Files */ = {
@@ -316,21 +325,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BCC676A555FA672C0C355E0A3B87BF80 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				38AE4894808821772771D46E621F5FB3 /* JDCDefender.modulemap */,
-				3056DB4FE39BDFB392F09E4B5FD5F5FB /* JDCDefender-dummy.m */,
-				0F0BFDA10A741050739E0D24BE03664B /* JDCDefender-Info.plist */,
-				162333B4774B3DDDDE2382680B09A6E8 /* JDCDefender-prefix.pch */,
-				FD5D1433C25C7376AF82759CD55F063F /* JDCDefender-umbrella.h */,
-				69136A7BE576D759E7F350BE86F7B59F /* JDCDefender.debug.xcconfig */,
-				DBE329190110D23E8C3C65DAA02C4C90 /* JDCDefender.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JDCDefender";
-			sourceTree = "<group>";
-		};
 		BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
@@ -346,12 +340,20 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				02183B518E8BC2A469C0D1436E0E218F /* Development Pods */,
+				D019C8BDA52CF3BC5C88C6CA08F9EA7E /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
 				06471941CB27F334043221B5E3C15211 /* Products */,
 				74D39DCE6F45E0A6C9E66809E059466A /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D019C8BDA52CF3BC5C88C6CA08F9EA7E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AA94991C06F547121CA0805E2C66713 /* JDCDefender */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		D53271CC62C79C82955DEF9EE4C1158A /* Pods-JDCDefender_Tests */ = {
@@ -371,6 +373,16 @@
 			path = "Target Support Files/Pods-JDCDefender_Tests";
 			sourceTree = "<group>";
 		};
+		DB285ACCD46676A314EA4E436414E7E3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D737D713975675E88063E1D864AD5D9B /* JDCDefender.podspec */,
+				A5C176A31C76869CCD6CAAFB8FBA881E /* LICENSE */,
+				C50FE0D4CF01618B36F4E9E92C608386 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -382,18 +394,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		20AE79857222D2BFC3CFF8D7E4F838D6 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7BE1AF2B8FADCCD638D32389F6910361 /* JDCDefender-umbrella.h in Headers */,
-				195E684473CE1096E9444C7C27B120E9 /* NSObject+KVCDefender.h in Headers */,
-				8282084890A1CF287ABD3FF2D9608CE7 /* NSObject+KVODefender.h in Headers */,
-				2C7E5E1D533AC86A881802F2DFFF3E33 /* NSObject+MethodSwizzling.h in Headers */,
-				2C3BB28815220E6C1368D6BF9D61BC01 /* NSObject+SelectorDefender.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -425,6 +425,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B8497BF4B14977B604BCF30D1B9ED116 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345CD604A9EE0D4C8A3EC87C1551DC6A /* JDCDefender-umbrella.h in Headers */,
+				7C2F4BDDBF9F035211AE7AA2D0C010FA /* NSObject+JDCModel.h in Headers */,
+				F2A63E2FF13D5857DAAD1F8E362CD006 /* NSObject+KVCDefender.h in Headers */,
+				C1DC6B799BDD90F9D1D2D4A83D89CAED /* NSObject+KVODefender.h in Headers */,
+				EED1DAD1E8DAA341DC6FABAC82D256B2 /* NSObject+MethodSwizzling.h in Headers */,
+				568FE3B8201F82807F3C0A31D9D346F1 /* NSObject+SelectorDefender.h in Headers */,
+				CA6FE5E4B59A4E6A83843AB4FF0050FC /* UIViewController+Swizzling.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -450,12 +464,12 @@
 		};
 		594D9E8DCD84EA9F75BA693A3F61C921 /* JDCDefender */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B1545F5F1791F89E3C846B7D5E34097A /* Build configuration list for PBXNativeTarget "JDCDefender" */;
+			buildConfigurationList = BCA668E1199CC96F21DDF7DF86EFDF6B /* Build configuration list for PBXNativeTarget "JDCDefender" */;
 			buildPhases = (
-				20AE79857222D2BFC3CFF8D7E4F838D6 /* Headers */,
-				8677B3B126A3C5D979CB839124E696E5 /* Sources */,
-				559276F3DA06AE875A34E125F1572B27 /* Frameworks */,
-				470B9619F751FC6998425A6CB40A22F4 /* Resources */,
+				B8497BF4B14977B604BCF30D1B9ED116 /* Headers */,
+				C9626D4E044A8A7716D8B6298B19373D /* Sources */,
+				8B2D16F557E462FCE0B48F86A54C47E3 /* Frameworks */,
+				16BECBA9BD645BA6CFBD0756CA802D09 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -534,7 +548,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		470B9619F751FC6998425A6CB40A22F4 /* Resources */ = {
+		16BECBA9BD645BA6CFBD0756CA802D09 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -565,18 +579,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8677B3B126A3C5D979CB839124E696E5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				60A4F678F61E4D2C09DF3CA037E84FE3 /* JDCDefender-dummy.m in Sources */,
-				C9FBFC32064A9BC6D5A064D2465BC395 /* NSObject+KVCDefender.m in Sources */,
-				21872921CBFDA348D6043C7A320CE3BE /* NSObject+KVODefender.m in Sources */,
-				ABE1C8F2BC71CD3FA2A1750533CCD0AB /* NSObject+MethodSwizzling.m in Sources */,
-				B530E341182CF82D3C6A582F7F84E022 /* NSObject+SelectorDefender.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A013DC902484EBE24453FBAF6F7DBE11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -598,6 +600,20 @@
 				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
 				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
 				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9626D4E044A8A7716D8B6298B19373D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1810142A04466C139E33ED973D65DCD3 /* JDCDefender-dummy.m in Sources */,
+				DECEAF5C03FBCDFEE725600C5EE041F5 /* NSObject+JDCModel.m in Sources */,
+				DDD21157C9405FEE3BAC7535EDB1A167 /* NSObject+KVCDefender.m in Sources */,
+				1269508227A0508D3E039B4E05E2F124 /* NSObject+KVODefender.m in Sources */,
+				9158AE68813DB4081EF2B961B80900A5 /* NSObject+MethodSwizzling.m in Sources */,
+				510CF999B42BB1BE545D13F108F63C54 /* NSObject+SelectorDefender.m in Sources */,
+				55C6F63E09F20147D5EAFA2E2EDF87F3 /* UIViewController+Swizzling.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -660,6 +676,38 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0DE81321E4669957340362AF109B78A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 914079B336F0A0351D7FD6EEB9F11125 /* JDCDefender.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JDCDefender/JDCDefender-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JDCDefender/JDCDefender-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JDCDefender/JDCDefender.modulemap";
+				PRODUCT_MODULE_NAME = JDCDefender;
+				PRODUCT_NAME = JDCDefender;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -855,37 +903,6 @@
 			};
 			name = Debug;
 		};
-		8DD161D38C159BA7DF2CCCC9EAE9E8D2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69136A7BE576D759E7F350BE86F7B59F /* JDCDefender.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JDCDefender/JDCDefender-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JDCDefender/JDCDefender-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JDCDefender/JDCDefender.modulemap";
-				PRODUCT_MODULE_NAME = JDCDefender;
-				PRODUCT_NAME = JDCDefender;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		9936B9AE73855BCDC27573DECEFABD48 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5492778AB27002C794C74A3305D2840D /* Pods-JDCDefender_Example.release.xcconfig */;
@@ -913,38 +930,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BC8C9CCE1B1884F22E1089A5DB70C499 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBE329190110D23E8C3C65DAA02C4C90 /* JDCDefender.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JDCDefender/JDCDefender-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JDCDefender/JDCDefender-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JDCDefender/JDCDefender.modulemap";
-				PRODUCT_MODULE_NAME = JDCDefender;
-				PRODUCT_NAME = JDCDefender;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1017,6 +1002,37 @@
 			};
 			name = Debug;
 		};
+		CF16EE6C8ED4761D8627F00B562F1433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B49FAF6AB48EFCEF08EB062A54331518 /* JDCDefender.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JDCDefender/JDCDefender-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JDCDefender/JDCDefender-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JDCDefender/JDCDefender.modulemap";
+				PRODUCT_MODULE_NAME = JDCDefender;
+				PRODUCT_NAME = JDCDefender;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1056,11 +1072,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B1545F5F1791F89E3C846B7D5E34097A /* Build configuration list for PBXNativeTarget "JDCDefender" */ = {
+		BCA668E1199CC96F21DDF7DF86EFDF6B /* Build configuration list for PBXNativeTarget "JDCDefender" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8DD161D38C159BA7DF2CCCC9EAE9E8D2 /* Debug */,
-				BC8C9CCE1B1884F22E1089A5DB70C499 /* Release */,
+				CF16EE6C8ED4761D8627F00B562F1433 /* Debug */,
+				0DE81321E4669957340362AF109B78A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
