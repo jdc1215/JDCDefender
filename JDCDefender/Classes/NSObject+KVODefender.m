@@ -153,16 +153,16 @@
     dispatch_once(&onceToken, ^{
         
         // 拦截 `addObserver:forKeyPath:options:context:` 方法，替换自定义实现
-        [NSObject yscDefenderSwizzlingInstanceMethod:@selector(addObserver:forKeyPath:options:context:) withMehtod:@selector(ysc_addObserver:forKeyPath:options:context:) withClass:[NSObject class]];
+        [NSObject yscDefenderSwizzlingInstanceMethod:@selector(addObserver:forKeyPath:options:context:) withMethod:@selector(ysc_addObserver:forKeyPath:options:context:) withClass:[NSObject class]];
         
         // 拦截 `removeObserver:forKeyPath:` 方法，替换自定义实现
-        [NSObject yscDefenderSwizzlingInstanceMethod:@selector(removeObserver:forKeyPath:) withMehtod:@selector(ysc_removeObserver:forKeyPath:) withClass:[NSObject class]];
+        [NSObject yscDefenderSwizzlingInstanceMethod:@selector(removeObserver:forKeyPath:) withMethod:@selector(ysc_removeObserver:forKeyPath:) withClass:[NSObject class]];
         
         // 拦截 `removeObserver:forKeyPath:context:` 方法，替换自定义实现
-        [NSObject yscDefenderSwizzlingInstanceMethod:@selector(removeObserver:forKeyPath:context:) withMehtod:@selector(ysc_removeObserver:forKeyPath:context:) withClass:[NSObject class]];
+        [NSObject yscDefenderSwizzlingInstanceMethod:@selector(removeObserver:forKeyPath:context:) withMethod:@selector(ysc_removeObserver:forKeyPath:context:) withClass:[NSObject class]];
         
         // 拦截 `dealloc` 方法，替换自定义实现
-        [NSObject yscDefenderSwizzlingInstanceMethod:NSSelectorFromString(@"dealloc") withMehtod:@selector(ysc_kvodealloc) withClass:[NSObject class]];
+        [NSObject yscDefenderSwizzlingInstanceMethod:NSSelectorFromString(@"dealloc") withMethod:@selector(ysc_kvodealloc) withClass:[NSObject class]];
     });
 }
 

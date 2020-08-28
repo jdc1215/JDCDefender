@@ -23,7 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 @param swizzledSelector 交换方法的SEL
 @param targetClass 类
 */
-+(void)yscDefenderSwizzlingInstanceMethod:(SEL)originalSelector withMehtod:(SEL)swizzledSelector withClass:(Class)targeClass;
++(void)yscDefenderSwizzlingInstanceMethod:(SEL)originalSelector withMethod:(SEL)swizzledSelector withClass:(Class)targeClass;
 @end
 
 // 判断是否是系统类

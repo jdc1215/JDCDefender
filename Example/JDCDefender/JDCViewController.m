@@ -18,6 +18,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    UIButton *button =[UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(100, 200, 150, 30);
+    [self.view addSubview:button];
+    button.backgroundColor = [UIColor redColor];
+    [button addTarget:self action:@selector(buttonTouched:) forControlEvents:UIControlEventTouchUpInside];
 }
 
 - (void)didReceiveMemoryWarning

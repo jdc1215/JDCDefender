@@ -16,7 +16,7 @@
     dispatch_once(&onceToken, ^{
 
         // 拦截 `setValue:forKey:` 方法，替换自定义实现
-        [NSObject yscDefenderSwizzlingInstanceMethod:@selector(setValue:forKey:) withMehtod:@selector(ysc_setValue:forKey:) withClass:[NSObject class]];
+        [NSObject yscDefenderSwizzlingInstanceMethod:@selector(setValue:forKey:) withMethod:@selector(ysc_setValue:forKey:) withClass:[NSObject class]];
     });
 }
 
