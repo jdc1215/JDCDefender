@@ -30,8 +30,11 @@
 }
 - (void)buttonTouched:(UIButton*)send{
 //    self.array =[[NSArray alloc]init];
-    self.array = @[@"1"];
-    NSString *str = self.array[4];
+    NSDictionary *dic = @{@"title":[NSNull null]};
+//    self.array = @[@"1"];
+    NSMutableDictionary *setD =[[NSMutableDictionary alloc]init];
+    NSString *title = dic[@"title"];
+    [setD setObject:title forKey:@"key"];
 }
 - (void)didReceiveMemoryWarning
 {

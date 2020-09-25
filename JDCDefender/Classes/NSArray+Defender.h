@@ -13,4 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
+@interface NSMutableArray (Defender)
+
+@end
+
 NS_ASSUME_NONNULL_END

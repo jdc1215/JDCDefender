@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UIViewController (Swizzling)
-
++(void)showAlertViewWithMessage:(NSString*)message;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -10,13 +10,13 @@
 #import "NSObject+MethodSwizzling.h"
 #import <objc/runtime.h>
 #import "UIViewController+Swizzling.h"
-
 @implementation NSObject (SelectorDefender)
 + (void)load {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         
         // 拦截 `+forwardingTargetForSelector:` 方法，替换自定义实现
+        
         [NSObject yscDefenderSwizzlingClassMethod:@selector(forwardingTargetForSelector:) withMethod:@selector(ysc_forwardingTargetForSelector:) withClass:[NSObject class]];
         
         // 拦截 `-forwardingTargetForSelector:` 方法，替换自定义实现
@@ -53,14 +53,7 @@
             NSString *errSel = NSStringFromSelector(aSelector);
             NSString *message = [NSString stringWithFormat:@"*** Crash Message: -[%@ %@]: unrecognized selector sent to instance %p ***",errClassName, errSel, self];
 #ifdef DEBUG
-            UIAlertController *alertController =[UIAlertController alertControllerWithTitle:@"提示" message:message preferredStyle:UIAlertControllerStyleAlert];
-            UIAlertAction *action =[UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-                
-            }];
-            [alertController addAction:action];
-            [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:alertController animated:YES completion:^{
-                
-            }];
+            [UIViewController showAlertViewWithMessage:message];
 #else
 #endif
             NSLog(@"%@",message);
@@ -116,15 +109,7 @@
             NSString *errSel = NSStringFromSelector(aSelector);
             NSString *message = [NSString stringWithFormat:@"*** Crash Message: -[%@ %@]: unrecognized selector sent to instance %p ***",errClassName, errSel, self];
 #ifdef DEBUG
-            
-            UIAlertController *alertController =[UIAlertController alertControllerWithTitle:@"提示" message:message preferredStyle:UIAlertControllerStyleAlert];
-            UIAlertAction *action =[UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-                
-            }];
-            [alertController addAction:action];
-            [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:alertController animated:YES completion:^{
-                
-            }];
+            [UIViewController showAlertViewWithMessage:message];
 #else
 #endif
             NSLog(@"%@",message);

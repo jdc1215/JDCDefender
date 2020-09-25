@@ -7,7 +7,7 @@
 //
 
 #import "UIViewController+Swizzling.h"
-#import "objc/runtime.h"
+#import <objc/runtime.h>
 @implementation UIViewController (Swizzling)
 + (void)load{
     static dispatch_once_t onceToken;
@@ -42,5 +42,17 @@
 //替换方法
 - (void)swizzledFunction{
     NSLog(@"swizzledFunction");
+}
++ (void)showAlertViewWithMessage:(NSString *)message{
+    UIAlertController *alertController =[UIAlertController alertControllerWithTitle:@"提示" message:message preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *action =[UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        
+    }];
+    [alertController addAction:action];
+    UIViewController *viewController = [UIApplication sharedApplication].keyWindow.rootViewController;
+    [viewController presentViewController:alertController animated:YES completion:^{
+        
+    }];
+    
 }
 @end

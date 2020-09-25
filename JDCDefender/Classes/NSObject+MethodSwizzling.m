@@ -58,4 +58,27 @@ void swizzlingInstanceMethod(Class class, SEL originalSelector, SEL swizzledSele
     }
 }
 
+
+/*
+ 数组。字典
+ */
++(void)methodSwizzlingWithClass:(Class)class originSelector:(SEL)originSelector toSwizzledSelector:(SEL)swizzledSelector {
+    Method originalMethod = class_getInstanceMethod(class, originSelector);
+    Method swizzledMethod = class_getInstanceMethod(class, swizzledSelector);
+    
+    BOOL didAddMethod = class_addMethod(class,
+                                        originSelector,
+                                        method_getImplementation(swizzledMethod),
+                                        method_getTypeEncoding(swizzledMethod));
+    
+    if (didAddMethod) {
+        class_replaceMethod(class,
+                            swizzledSelector,
+                            method_getImplementation(originalMethod),
+                            method_getTypeEncoding(originalMethod));
+    } else {
+        method_exchangeImplementations(originalMethod, swizzledMethod);
+    }
+}
+
 @end

@@ -24,6 +24,10 @@ NS_ASSUME_NONNULL_BEGIN
 @param targetClass 类
 */
 +(void)yscDefenderSwizzlingInstanceMethod:(SEL)originalSelector withMethod:(SEL)swizzledSelector withClass:(Class)targeClass;
+/*
+ 数组。字典
+ */
++(void)methodSwizzlingWithClass:(Class)class originSelector:(SEL)originSelector toSwizzledSelector:(SEL)swizzledSelector;
 @end
 
 // 判断是否是系统类
