@@ -42,6 +42,7 @@
         return [self jdcObjectAtIndex:index];
     }
 }
+
 - (id)jdcObjectAtIndexSubscript:(NSUInteger)index{
     if (self.count<=0) {
 #ifdef DEBUG
@@ -80,6 +81,7 @@
         return [self jdcObjectAtIndexSubscript:index];
     }
 }
+
 - (id)jdcObjectAtIndexSubscriptI:(NSUInteger)index{
     if (self.count<=0) {
 #ifdef DEBUG
@@ -93,6 +95,7 @@
 #ifdef DEBUG
         [UIViewController showAlertViewWithMessage:@"index beyond the boundary"];
 #else
+        
 #endif
         return nil;
     }else{

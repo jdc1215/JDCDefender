@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - JDCDefender (0.1.0)
+  - JDCDefender (0.2.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  JDCDefender: 6d5b9928b7cbaf636595cc8863f39fe506e6b505
+  JDCDefender: 778937a41f54250c270ae78ef0468a657858bf12
 
 PODFILE CHECKSUM: 9ce4171179ab9dff8dbd1bb0aa6e058d38259134
 

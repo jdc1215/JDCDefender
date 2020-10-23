@@ -127,14 +127,14 @@
     
     NSHashTable<NSObject *> *info = _kvoInfoMap[keyPath];
     
-    for (NSObject *observer in info) {
-        @try {
-            [observer observeValueForKeyPath:keyPath ofObject:object change:change context:context];
-        } @catch (NSException *exception) {
-            NSString *reason = [NSString stringWithFormat:@"KVO Warning : %@",[exception description]];
-            NSLog(@"%@",reason);
-        }
-    }
+//    for (NSObject *observer in info) {
+//        @try {
+//            [observer observeValueForKeyPath:keyPath ofObject:object change:change context:context];
+//        } @catch (NSException *exception) {
+//            NSString *reason = [NSString stringWithFormat:@"KVO Warning : %@",[exception description]];
+//            NSLog(@"%@",reason);
+//        }
+//    }
 }
 
 // 获取所有被观察的 keypaths

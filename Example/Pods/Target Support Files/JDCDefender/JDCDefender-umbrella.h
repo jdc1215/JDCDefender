@@ -11,7 +11,7 @@
 #endif
 
 #import "NSArray+Defender.h"
-#import "NSMutableArray+Defender.h"
+#import "NSDictionary+Hook.h"
 #import "NSObject+JDCModel.h"
 #import "NSObject+KVCDefender.h"
 #import "NSObject+KVODefender.h"
